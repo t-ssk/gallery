@@ -1,0 +1,18 @@
+nav{
+    background-color: #253237;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.logo{
+    color: #9DB4C0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+ul.nav a:hover{
+    background-color: #C2DFE3;
+}
+
+.active>a{
+    background-color: #E0FBFC;
+}

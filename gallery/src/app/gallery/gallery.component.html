@@ -1,0 +1,15 @@
+<h2>{{title}}</h2>
+<div class="row">
+    <ul>
+        <li *ngFor="let filter of buttonFilters">
+            <button class="btn btn-sm btn-default" [class.active]="filterBy==filter" (click)="filterBy=filter">{{filter}}</button>
+        </li>
+    </ul>
+    <ul id="thumbnailsList">
+        <li *ngFor="let thumbnail of (visibleImages | galleryFilter:filterBy)">
+            <a [routerLink]="['/thumbnail', thumbnail.Id]">
+                <img src="{{thumbnail.Url}}" class="tn" width="200" height="200" />
+            </a>           
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,1 @@
+Y:\dev\gallery\GalleryWebAPI\GalleryWebAPI.Tests\obj\Debug\GalleryWebAPI.Tests.csprojResolveAssemblyReference.cache
